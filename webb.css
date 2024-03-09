@@ -1,0 +1,84 @@
+﻿body {
+    background-image: url('background.PNG');
+}
+.Images h1{
+    color:white;
+   
+    font-family:Georgia;
+}
+
+
+
+.Image1{
+    float:left;
+}
+
+.Image2 {
+    float: right;
+}
+
+.Images h2{
+    color:white;
+    
+    font-family:Georgia;
+    
+}
+p{
+   color:white; 
+   font-family:Georgia;
+   text-decoration-thickness:revert-layer;
+}
+
+
+
+.c p{
+    color:green;
+    margin:0;
+    
+}
+
+.Images {
+     /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    /* Additional styling for the container */
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    
+}
+
+h1{
+    color:white;
+    text-align:center;
+}
+
+
+.Images p{
+    color:white;
+}
+
+.m p{
+    color:green;
+}
+
+.contactForm p {
+    color:white;
+}
+
+
+.form-group{
+    color:white;
+    display:block;
+}
+
+
+label {
+    display:block; /* Display labels as inline-block to make them appear on the same line */
+    width: 120px; /* Set a fixed width for labels to create consistent spacing */
+    margin-right:10px;
+}
+
+
+
+
